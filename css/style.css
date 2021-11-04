@@ -1,0 +1,267 @@
+@import url('http://fonts.cdnfonts.com/css/whitney');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Whitney-Semibold",Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+
+/* header */
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+.container-center{
+    
+    text-align: center;
+    width: 90%;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 20px;
+    border-radius: 20px;
+}
+
+.logo, ul li{
+    float: left;
+
+}
+
+.login{
+    float: right;
+}
+
+nav{
+    width: calc(100% - 100px);
+    text-align: center;
+    align-items: center;
+}
+
+header{
+    background-color: rgba(49, 97, 224, 1);
+    height: 80px;
+    line-height: 80px;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.logo a img{
+    vertical-align: middle;
+    line-height: 80px ;
+}
+
+.container-center::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.btn{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.btn:hover{
+    color: rgba(49, 97, 224, 1);;
+}
+
+/* header */
+
+/* jumbo */
+.intro{
+    min-height: 346px;
+    background-size: cover;
+    background-image: url("../img/jumbo.png");
+    width: 100%;
+    
+}
+
+.text{
+    color: white;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.btn-1, .btn-2{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+.btn-1{
+    background-color: white;
+    color: black;
+}
+
+
+.btn-1:hover{
+     color: rgba(49, 97, 224, 1);;
+}
+
+
+.btn-2{
+    background-color: black;
+    color: white;
+}
+
+.text h1{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    font-size: 40px;
+}
+
+.text p{
+    font-size: 18px;
+}
+
+.text div{
+    display: inline-block;
+    margin: 30px 20px;
+}
+
+/* jumbo */
+
+/* main */
+
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+main section{
+    margin: 100px  0 300px 0;
+}
+
+.section-text{
+    width: 30%;
+    margin: 0 auto;
+    float: left;
+    margin: 30px 1%;
+}
+
+.section-text h1{
+    font-size: 50px;
+}
+
+.section-text p{
+    font-size: 16px;
+    margin-top: 10px;
+    
+}
+
+.sezione-1, .sezione-2, .sezione-3{
+    position: relative;
+}
+
+section img{
+    width: 68%;
+    margin: 0 auto;
+    float: left;
+}
+
+main section::after{
+    content:"";
+    clear: both;
+    display: table;
+}
+
+.sezione-4{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.sezione-4 .section-text-4 p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.sezione-4 .section-text-4 h1{
+    font-size: 50px;
+}
+
+.section-image img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.stars{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.stars img{
+    position: relative;
+    top: 20px;
+    left: 5px;
+}
+
+.download{
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.btn-3{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 16px;
+    background-color: rgb(145, 133, 255);
+    color: white;
+}
+/* main */
+
+
+/* footer */
+footer{
+    background-color:rgb(36, 36, 58);
+
+}
+.social h1{
+    color: rgb(145, 133, 255);
+}
+
+.social p{
+    color: white;
+    line-height: 20px;
+}
+
+.ita{
+    line-height: 20px;
+    height: 20px;
+    width: 30px;
+
+}
+
+.footer-container{
+    width: 80%;
+    margin: 100px auto;
+
+}
+
+/* footer */
