@@ -13,11 +13,11 @@ body{
 
 
 /* header */
-nav ul li a{
+.main-nav ul li a{
     text-decoration: none;
     color: white;
 }
-nav ul li a:hover{
+.main-nav ul li a:hover{
     text-decoration: underline;
 }
 
@@ -34,7 +34,7 @@ ul{
     vertical-align: middle;
 }
 
-nav ul li{
+.main-nav ul li{
     display: inline-block;
     margin: 0 20px;
     border-radius: 20px;
@@ -49,10 +49,10 @@ nav ul li{
     float: right;
 }
 
-nav{
-    width: calc(100% - 100px);
+.main-nav{
+    width: calc(100% - 197px);
     text-align: center;
-    align-items: center;
+    float: left;
 }
 
 header{
@@ -154,7 +154,7 @@ main{
 }
 
 main section{
-    margin: 100px  0 300px 0;
+    margin: 100px 0 300px 0;
 }
 
 .section-text{
@@ -169,7 +169,8 @@ main section{
 }
 
 .section-text p{
-    font-size: 16px;
+    color: rgb(133, 133, 133);
+    font-size: 18px;
     margin-top: 10px;
     
 }
@@ -196,6 +197,7 @@ main section::after{
 }
 
 .sezione-4 .section-text-4 p{
+    color: rgb(133, 133, 133);
     font-size: 20px;
     margin-top: 10px;
 }
@@ -231,7 +233,7 @@ main section::after{
     padding: 10px;
     border-radius: 50px;
     font-size: 16px;
-    background-color: rgb(145, 133, 255);
+    background-color: rgb(119, 146, 235);
     color: white;
 }
 /* main */
@@ -240,28 +242,91 @@ main section::after{
 /* footer */
 footer{
     background-color:rgb(36, 36, 58);
+    width: 100%;
+}
 
+footer .container-center{
+    text-align: left;
+    padding: 30px 0;
+    border-bottom: 2px solid rgb(119, 146, 235);
+
+}
+.social{
+    width: 20%;
+    margin: 0 auto;
+    float: left;
 }
 .social h1{
-    color: rgb(145, 133, 255);
+    color: rgb(119, 146, 235);
 }
 
-.social p{
+.social .language p{
     color: white;
-    line-height: 20px;
+    line-height: 40px;
 }
 
 .ita{
-    line-height: 20px;
     height: 20px;
     width: 30px;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.language{
+    height: 40px;
+    margin-top: 25px;
+}
+
+
+
+.social-symbol i{
+    color: white;
+    margin: 20px 10px;
+}
+
+.social-symbol i:first-child{
+    margin-left: 0;
+}
+
+
+.info{
+    width: 70%;
+    margin: 0 auto;
+    float: right;
+}
+
+thead td{
+    color: rgb(119, 146, 235);
+}
+
+tbody td{
+    color:white;
+}
+td{
+    padding: 5px 25px;
+    font-size: 16px;
+}
+
+.footer-button{
+    width: 90%;
+    max-width: 1180px;
+    margin: 0 auto;
+    background-color: rgb(36, 36, 58);
+    height: 80px;
+    padding-top: 30px;
+    
+}
+
+.footer-button::after{
+    content: "";
+    display: table;
+    clear: both;
 
 }
 
-.footer-container{
-    width: 80%;
-    margin: 100px auto;
-
+.footer-button .btn-3{
+    float: right;
 }
 
 /* footer */
